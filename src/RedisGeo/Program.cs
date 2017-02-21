@@ -18,6 +18,7 @@ namespace RedisGeo
                 .UseStartup<Startup>()
                 .Build();
 
+
             host.Run();
         }
     }
